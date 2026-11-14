@@ -1,7 +1,7 @@
 {
-  "versionName": "2.6.0",
-  "versionCode": 148,
-  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.6.0.apk",
-  "sha256": "3a6659da014385b98ffc1ef244bb7da1baea61300d5e588a72004096add622ab",
-  "notes": "Release pipeline: CI now runs the :core: tests too, so a green run proves the whole suite; the release workflow's header no longer claims releases are debug-signed — they are signed with the permanent release key. Everything since 2.5.4 in one version: the test cleanup and slow-test fix (PR #5, #6), lint clean, and the small-wins bundle — capability-gated effects for old and new TVs, artwork hardening, and bounded channel, label and top-metas lookups (PR #7). Tests: 212 JVM tests, all passing; lint 0 errors, 0 warnings."
+  "versionName": "2.7.0",
+  "versionCode": 149,
+  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.0.apk",
+  "sha256": "3f7b03aabaf7fa5982c3a84c740fcc22dc5ef54bb2f3ca224120d50b183cf440",
+  "notes": "Manual update check: the About page now has a \"Check for updates\" row. It checks the public release mirror for a newer version, downloads the APK with progress, verifies its SHA-256 before installing, and installs it \u2014 silently on Android 12+ once the running build has the updater; the first update from an older build shows the system confirmation screen instead."
 }
