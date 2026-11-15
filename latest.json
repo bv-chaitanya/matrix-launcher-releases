@@ -1,7 +1,7 @@
 {
   "versionName": "2.7.2",
   "versionCode": 151,
-  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-2.7.2.apk",
+  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.2.apk",
   "sha256": "32d2261ec5dd0883b9071fccf6e1f70232a7fc12b8e0e7028131824739d3193c",
   "notes": "- Mirror automation (PR #11): the release workflow now publishes the APK and latest.json to the public release mirror automatically, so in-app update checks see new versions without a manual step.\n- Repository docs organized: TODO and llms-full moved into docs/, CLEANUP and PROVENANCE moved into docs/, with new documentation and tool indexes.\n- Tests: 258 JVM tests, all passing; lint 0 errors, 3 warnings."
 }
