@@ -1,7 +1,7 @@
 {
-  "versionName": "2.7.3",
-  "versionCode": 152,
-  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.3.apk",
-  "sha256": "2bfb6e014a47b088ebd4c0a3956facb7ecd31073cb5d49c6c0e7af931ecdc60d",
-  "notes": "- Mirror filenames (PR #12): the release workflow now writes the APK with the v-prefixed name (Matrix-Launcher-v<version>.apk) in the filename and in latest.json, matching the earlier mirror files.\n- Tests: 258 JVM tests, all passing; lint 0 errors, 3 warnings."
+  "versionName": "2.7.4",
+  "versionCode": 153,
+  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.4.apk",
+  "sha256": "ee284cad54ea26cccd9bf08c1ee5412dfdb462cd0a7f60bfac6fc26615ab77cc",
+  "notes": "- Update flow fixes (PR #13): release notes now open in a dedicated reader screen with Up/Down scrolling; installs now ask for confirmation (Update/Cancel) on API 31+ instead of installing silently; the launcher reopens itself after a successful install.\n- Tests: 260 JVM tests, all passing; lint 0 errors, 2 warnings."
 }
