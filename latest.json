@@ -1,7 +1,7 @@
 {
-  "versionName": "2.7.0",
-  "versionCode": 149,
-  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.0.apk",
-  "sha256": "3f7b03aabaf7fa5982c3a84c740fcc22dc5ef54bb2f3ca224120d50b183cf440",
-  "notes": "Manual update check: the About page now has a \"Check for updates\" row. It checks the public release mirror for a newer version, downloads the APK with progress, verifies its SHA-256 before installing, and installs it \u2014 silently on Android 12+ once the running build has the updater; the first update from an older build shows the system confirmation screen instead."
+  "versionName": "2.7.1",
+  "versionCode": 150,
+  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.1.apk",
+  "sha256": "08bac8b1a21486d21c70ca8a4583e43c27696108a0097d7e2dbc1118607877eb",
+  "notes": "Audit fixes: backups strictly validated and TMDB key never exported; AI/TMDB key fields masked with an eye icon; update installer hardened; SIMKL add-by-ID fixed; AI calls and reads bounded; non-Latin titles and media-kind matching fixed; per-channel cap keeps better late candidates; structure-audit tool fixed. 258 tests, lint 0 errors."
 }
