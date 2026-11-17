@@ -1,7 +1,7 @@
 {
-  "versionName": "2.7.4",
-  "versionCode": 153,
-  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.4.apk",
-  "sha256": "ee284cad54ea26cccd9bf08c1ee5412dfdb462cd0a7f60bfac6fc26615ab77cc",
-  "notes": "- Update flow fixes (PR #13): release notes now open in a dedicated reader screen with Up/Down scrolling; installs now ask for confirmation (Update/Cancel) on API 31+ instead of installing silently; the launcher reopens itself after a successful install.\n- Tests: 260 JVM tests, all passing; lint 0 errors, 2 warnings."
+  "versionName": "2.7.5",
+  "versionCode": 154,
+  "apkUrl": "https://raw.githubusercontent.com/bv-chaitanya/matrix-launcher-releases/main/Matrix-Launcher-v2.7.5.apk",
+  "sha256": "3d5d02c2606822cae24b4f0ef7cd801f64241cb7307e02d387e1bcf08834517e",
+  "notes": "- Cleanup and release gates (PR #14): docs corrected to Actions-only signing with the clean-install warning; CI gains a fail-closed `quality-gate` job; the release workflow is hardened (certificate pin, resumable publish, ephemeral signing material, anonymous verification); `tools/release_gate.py` validates the release and mirror before publishing.\n- First release signed with the rotated key: this will NOT install over the TV's launcher \u2014 uninstall the old build and reinstall, then updates work normally.\n- Tests: 260 JVM tests, all passing; lint 0 errors, 3 warnings.\n\nClean installation required: the signing certificate changed on 2026-11-16 from retired 15198ed1\u2026 to bd4e6bf1\u2026. This release cannot update the old TV launcher in place. Uninstalling loses settings; keep an alternate launcher/install route available."
 }
